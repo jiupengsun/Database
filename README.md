@@ -1,5 +1,9 @@
 Support SELECT, GROUP BY, SUM, COUNT, MAX, MIN keywords
+
+
 Support GROUP BY with multiple conditions (only on String column)
+
+
 Support at most one aggregation operator
 
 Notice: I just fix the model of database so the input file should maintain
