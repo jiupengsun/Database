@@ -1,0 +1,9 @@
+name,item,transaction_id,amount,spent
+string,string,string,number,number
+john,donut,1,1,1.40
+john,bagel,1,1,1.80
+john,coffee,1,2,4.00
+chloe,coffee,2,2,4.00
+chloe,brownie,2,1,1.60
+john,coffee,3,3,6.00
+will,bagel,4,1,1.80
