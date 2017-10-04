@@ -6,8 +6,8 @@ Support GROUP BY with multiple conditions (only on String column)
 
 Support at most one aggregation operator
 
-Notice: I just fix the model of database so the input file should maintain
-a fixed sequence of column and type. But there is no limitation on the order of sql statement.
+Notice: To make it simple, I assume the model of database is immutable so the input file should maintain
+a fixed order of column and type. But there is no limitation on the order of sql statement.
 
 That's say, they are same if you input 
 "select name, spent" & "select spent, name"
